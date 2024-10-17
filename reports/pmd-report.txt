@@ -1,0 +1,513 @@
+src/main/java/com/ims/InventoryManagementSystem.java:16:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.ims.controller.ProductController'
+src/main/java/com/ims/InventoryManagementSystem.java:29:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/InventoryManagementSystem.java:29:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/com/ims/InventoryManagementSystem.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/InventoryManagementSystem.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/ims/InventoryManagementSystem.java:32:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'ctx'.
+src/main/java/com/ims/InventoryManagementSystem.java:34:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'logger'.
+src/main/java/com/ims/InventoryManagementSystem.java:244:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/ims/InventoryManagementSystem.java:307:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/ims/InventoryManagementSystem.java:348:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/ims/InventoryManagementSystem.java:353:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/ims/InventoryManagementSystem.java:356:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/ims/InventoryManagementSystem.java:359:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/ims/InventoryManagementSystem.java:363:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/ims/InventoryManagementSystem.java:367:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/ims/InventoryManagementSystem.java:370:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/ims/InventoryManagementSystem.java:377:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/ims/InventoryManagementSystem.java:380:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/ims/InventoryManagementSystem.java:384:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/ims/InventoryManagementSystem.java:387:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/ims/InventoryManagementSystem.java:391:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/ims/InventoryManagementSystem.java:394:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/ims/bo/ProductBO.java:31:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.ims.service.ProductService'
+src/main/java/com/ims/bo/ProductBO.java:34:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/ims/bo/ProductBO.java:34:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/bo/ProductBO.java:34:	TooManyMethods:	TooManyMethods: This class has too many methods, consider refactoring it.
+src/main/java/com/ims/bo/ProductBO.java:37:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/bo/ProductBO.java:40:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/bo/ProductBO.java:43:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/bo/ProductBO.java:43:	LongVariable:	LongVariable: Avoid excessively long variable names like categoryRepository
+src/main/java/com/ims/bo/ProductBO.java:46:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/bo/ProductBO.java:51:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'purchaseRepository'
+src/main/java/com/ims/bo/ProductBO.java:51:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/bo/ProductBO.java:51:	LongVariable:	LongVariable: Avoid excessively long variable names like purchaseRepository
+src/main/java/com/ims/bo/ProductBO.java:53:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'log'
+src/main/java/com/ims/bo/ProductBO.java:53:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/bo/ProductBO.java:53:	MutableStaticState:	MutableStaticState: Do not use non-final non-private static fields
+src/main/java/com/ims/bo/ProductBO.java:59:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'input' is not assigned and could be declared final
+src/main/java/com/ims/bo/ProductBO.java:67:	AvoidUncheckedExceptionsInSignatures:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/com/ims/bo/ProductBO.java:67:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/bo/ProductBO.java:67:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/ims/bo/ProductBO.java:69:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "input :{}" appears 6 times in this file; the first occurrence is on line 69
+src/main/java/com/ims/bo/ProductBO.java:71:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'input' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:75:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productID' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:92:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/bo/ProductBO.java:92:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/ims/bo/ProductBO.java:95:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'productListBYName' is never used (overwritten on lines 103 and 108)
+src/main/java/com/ims/bo/ProductBO.java:97:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "null" appears 4 times in this file; the first occurrence is on line 97
+src/main/java/com/ims/bo/ProductBO.java:97:	InefficientEmptyStringCheck:	InefficientEmptyStringCheck: String.trim().length() == 0 / String.trim().isEmpty() is an inefficient way to validate a blank String.
+src/main/java/com/ims/bo/ProductBO.java:97:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/ims/bo/ProductBO.java:120:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "list fetched sucessfuly" appears 8 times in this file; the first occurrence is on line 120
+src/main/java/com/ims/bo/ProductBO.java:124:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/bo/ProductBO.java:128:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'allProductByNameDescending' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:128:	LongVariable:	LongVariable: Avoid excessively long variable names like allProductByNameDescending
+src/main/java/com/ims/bo/ProductBO.java:141:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/bo/ProductBO.java:145:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productAssociatedTovendors' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:145:	LongVariable:	LongVariable: Avoid excessively long variable names like productAssociatedTovendors
+src/main/java/com/ims/bo/ProductBO.java:151:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/bo/ProductBO.java:154:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productAndCategory' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:154:	LongVariable:	LongVariable: Avoid excessively long variable names like productAndCategory
+src/main/java/com/ims/bo/ProductBO.java:161:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/bo/ProductBO.java:161:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productRequestDTO' is not assigned and could be declared final
+src/main/java/com/ims/bo/ProductBO.java:161:	NcssCount:	NcssCount: The method 'addProductDetails(ProductRequestDTO)' has a NCSS line count of 85.
+src/main/java/com/ims/bo/ProductBO.java:164:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productRequestDTOs' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:164:	LongVariable:	LongVariable: Avoid excessively long variable names like productRequestDTOs
+src/main/java/com/ims/bo/ProductBO.java:165:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productResponseDtos' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:165:	LongVariable:	LongVariable: Avoid excessively long variable names like productResponseDtos
+src/main/java/com/ims/bo/ProductBO.java:167:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'existingCategory' is never used (overwritten on line 191)
+src/main/java/com/ims/bo/ProductBO.java:169:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendorId' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:171:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendorName' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:175:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendorById' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:178:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'existingVendor' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:183:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'categoryDto' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:184:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'categoryName' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:186:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'categoryById' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:193:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productDTO' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:195:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productDto' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:198:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productByName' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:203:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/bo/ProductBO.java:203:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'existingProduct' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:205:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'quantity' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:206:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'updatedQuantity' is never used (overwritten on line 208)
+src/main/java/com/ims/bo/ProductBO.java:217:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/ims/bo/ProductBO.java:221:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/bo/ProductBO.java:221:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'purchase' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:233:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/bo/ProductBO.java:233:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productResponseDto' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:233:	LongVariable:	LongVariable: Avoid excessively long variable names like productResponseDto
+src/main/java/com/ims/bo/ProductBO.java:251:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/bo/ProductBO.java:251:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newProduct' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:260:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'barCode' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:269:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'savedProduct' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:273:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/ims/bo/ProductBO.java:280:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/ims/bo/ProductBO.java:282:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/bo/ProductBO.java:282:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'purchase' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:292:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/bo/ProductBO.java:292:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productResponseDto' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:292:	LongVariable:	LongVariable: Avoid excessively long variable names like productResponseDto
+src/main/java/com/ims/bo/ProductBO.java:325:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'categoryResponseDto' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:325:	LongVariable:	LongVariable: Avoid excessively long variable names like categoryResponseDto
+src/main/java/com/ims/bo/ProductBO.java:340:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/bo/ProductBO.java:343:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'allProducts' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:349:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/bo/ProductBO.java:349:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'categoryName' is not assigned and could be declared final
+src/main/java/com/ims/bo/ProductBO.java:353:	LongVariable:	LongVariable: Avoid excessively long variable names like productByCategoryName
+src/main/java/com/ims/bo/ProductBO.java:353:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'productByCategoryName' is never used (overwritten on lines 365 and 369)
+src/main/java/com/ims/bo/ProductBO.java:355:	InefficientEmptyStringCheck:	InefficientEmptyStringCheck: String.trim().length() == 0 / String.trim().isEmpty() is an inefficient way to validate a blank String.
+src/main/java/com/ims/bo/ProductBO.java:355:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/ims/bo/ProductBO.java:359:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "categoryName  can not be null , enter valid categoryName among  Electronics , Clothing , Books, Sports, Furniture " appears 6 times in this file; the first occurrence is on line 359
+src/main/java/com/ims/bo/ProductBO.java:371:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/com/ims/bo/ProductBO.java:376:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'byCategoryName' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:386:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/ims/bo/ProductBO.java:387:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "    Enter the correct  category name among  Electronics , Clothing , Books, Sports, Furniture" appears 4 times in this file; the first occurrence is on line 387
+src/main/java/com/ims/bo/ProductBO.java:407:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/bo/ProductBO.java:407:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'categoryName' is not assigned and could be declared final
+src/main/java/com/ims/bo/ProductBO.java:417:	InefficientEmptyStringCheck:	InefficientEmptyStringCheck: String.trim().length() == 0 / String.trim().isEmpty() is an inefficient way to validate a blank String.
+src/main/java/com/ims/bo/ProductBO.java:417:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/ims/bo/ProductBO.java:432:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'byCategoryName' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:444:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/ims/bo/ProductBO.java:462:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/bo/ProductBO.java:462:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'categoryName' is not assigned and could be declared final
+src/main/java/com/ims/bo/ProductBO.java:466:	LongVariable:	LongVariable: Avoid excessively long variable names like averageProductPriceByCategoryName
+src/main/java/com/ims/bo/ProductBO.java:470:	InefficientEmptyStringCheck:	InefficientEmptyStringCheck: String.trim().length() == 0 / String.trim().isEmpty() is an inefficient way to validate a blank String.
+src/main/java/com/ims/bo/ProductBO.java:470:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/ims/bo/ProductBO.java:485:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'category'.
+src/main/java/com/ims/bo/ProductBO.java:510:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/bo/ProductBO.java:513:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productsInAscOrder' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:513:	LongVariable:	LongVariable: Avoid excessively long variable names like productsInAscOrder
+src/main/java/com/ims/bo/ProductBO.java:518:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/bo/ProductBO.java:520:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'countProductsByCategory' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:520:	LongVariable:	LongVariable: Avoid excessively long variable names like countProductsByCategory
+src/main/java/com/ims/bo/ProductBO.java:525:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/bo/ProductBO.java:527:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'countProductsByCategory' could be declared final
+src/main/java/com/ims/bo/ProductBO.java:527:	LongVariable:	LongVariable: Avoid excessively long variable names like countProductsByCategory
+src/main/java/com/ims/bo/VendorBO.java:9:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.ims.dao.ProductCustomised'
+src/main/java/com/ims/bo/VendorBO.java:15:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/ims/bo/VendorBO.java:15:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/bo/VendorBO.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/bo/VendorBO.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/bo/VendorBO.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'vendor' is not assigned and could be declared final
+src/main/java/com/ims/bo/VendorBO.java:23:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'savedVendor' could be declared final
+src/main/java/com/ims/bo/VendorBO.java:23:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'savedVendor'
+src/main/java/com/ims/bo/VendorBO.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/bo/VendorBO.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'vendor' is not assigned and could be declared final
+src/main/java/com/ims/bo/VendorBO.java:31:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'savedVendor' could be declared final
+src/main/java/com/ims/bo/VendorBO.java:31:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'savedVendor'
+src/main/java/com/ims/bo/VendorBO.java:38:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/bo/VendorBO.java:39:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'allvendors' could be declared final
+src/main/java/com/ims/bo/VendorBO.java:39:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'allvendors'
+src/main/java/com/ims/bo/VendorBO.java:51:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/bo/VendorBO.java:51:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/ims/bo/VendorBO.java:51:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/ims/bo/VendorBO.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'byid' could be declared final
+src/main/java/com/ims/bo/VendorBO.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendor' could be declared final
+src/main/java/com/ims/bo/VendorBO.java:53:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'vendor'
+src/main/java/com/ims/controller/ProductController.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.Arrays'
+src/main/java/com/ims/controller/ProductController.java:20:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.ims.entity.Category'
+src/main/java/com/ims/controller/ProductController.java:21:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.ims.entity.Product'
+src/main/java/com/ims/controller/ProductController.java:22:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.ims.entity.Vendor'
+src/main/java/com/ims/controller/ProductController.java:29:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/ims/controller/ProductController.java:29:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/controller/ProductController.java:29:	TooManyMethods:	TooManyMethods: This class has too many methods, consider refactoring it.
+src/main/java/com/ims/controller/ProductController.java:33:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'logger'
+src/main/java/com/ims/controller/ProductController.java:33:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/controller/ProductController.java:33:	MutableStaticState:	MutableStaticState: Do not use non-final non-private static fields
+src/main/java/com/ims/controller/ProductController.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/controller/ProductController.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/controller/ProductController.java:43:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/controller/ProductController.java:43:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productRequestDTO' is not assigned and could be declared final
+src/main/java/com/ims/controller/ProductController.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productDetails' could be declared final
+src/main/java/com/ims/controller/ProductController.java:64:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/controller/ProductController.java:64:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/ims/controller/ProductController.java:68:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productDetails' could be declared final
+src/main/java/com/ims/controller/ProductController.java:75:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/ims/controller/ProductController.java:77:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/ims/controller/ProductController.java:80:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "reponse  : {}" appears 5 times in this file; the first occurrence is on line 80
+src/main/java/com/ims/controller/ProductController.java:91:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/controller/ProductController.java:94:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'allProducts' could be declared final
+src/main/java/com/ims/controller/ProductController.java:105:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/controller/ProductController.java:105:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/ims/controller/ProductController.java:107:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/main/java/com/ims/controller/ProductController.java:112:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/ims/controller/ProductController.java:114:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/ims/controller/ProductController.java:123:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/controller/ProductController.java:125:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/main/java/com/ims/controller/ProductController.java:134:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/controller/ProductController.java:134:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'categoryName' is not assigned and could be declared final
+src/main/java/com/ims/controller/ProductController.java:137:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/main/java/com/ims/controller/ProductController.java:141:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/ims/controller/ProductController.java:143:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/ims/controller/ProductController.java:152:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/controller/ProductController.java:152:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'categoryName' is not assigned and could be declared final
+src/main/java/com/ims/controller/ProductController.java:156:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productsCount' could be declared final
+src/main/java/com/ims/controller/ProductController.java:160:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/main/java/com/ims/controller/ProductController.java:164:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/ims/controller/ProductController.java:174:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/controller/ProductController.java:174:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'categoryName' is not assigned and could be declared final
+src/main/java/com/ims/controller/ProductController.java:178:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'averageProductPriceByCategoryName' could be declared final
+src/main/java/com/ims/controller/ProductController.java:178:	LongVariable:	LongVariable: Avoid excessively long variable names like averageProductPriceByCategoryName
+src/main/java/com/ims/controller/ProductController.java:182:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/main/java/com/ims/controller/ProductController.java:184:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/ims/controller/ProductController.java:194:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/controller/ProductController.java:197:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productsInAscOrder' could be declared final
+src/main/java/com/ims/controller/ProductController.java:197:	LongVariable:	LongVariable: Avoid excessively long variable names like productsInAscOrder
+src/main/java/com/ims/controller/ProductController.java:199:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "list fetched sucess fully" appears 4 times in this file; the first occurrence is on line 199
+src/main/java/com/ims/controller/ProductController.java:207:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/controller/ProductController.java:209:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'countProductsByCategory' could be declared final
+src/main/java/com/ims/controller/ProductController.java:209:	LongVariable:	LongVariable: Avoid excessively long variable names like countProductsByCategory
+src/main/java/com/ims/controller/ProductController.java:219:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/controller/ProductController.java:223:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'categoryProductsSum' could be declared final
+src/main/java/com/ims/controller/ProductController.java:223:	LongVariable:	LongVariable: Avoid excessively long variable names like categoryProductsSum
+src/main/java/com/ims/controller/ProductController.java:233:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/controller/ProductController.java:237:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productAssociatedTovendors' could be declared final
+src/main/java/com/ims/controller/ProductController.java:237:	LongVariable:	LongVariable: Avoid excessively long variable names like productAssociatedTovendors
+src/main/java/com/ims/controller/ProductController.java:247:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/controller/ProductController.java:251:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productAssociatedTovendorsWithCategory' could be declared final
+src/main/java/com/ims/controller/ProductController.java:251:	LongVariable:	LongVariable: Avoid excessively long variable names like productAssociatedTovendorsWithCategory
+src/main/java/com/ims/controller/VendorController.java:18:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/ims/controller/VendorController.java:18:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/controller/VendorController.java:21:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'vendorRepository'
+src/main/java/com/ims/controller/VendorController.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/controller/VendorController.java:26:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/controller/VendorController.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'vendorDTO' is not assigned and could be declared final
+src/main/java/com/ims/controller/VendorController.java:28:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendor' could be declared final
+src/main/java/com/ims/dao/CategoryRepository.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.List'
+src/main/java/com/ims/dao/CategoryRepository.java:7:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.data.jpa.repository.Query'
+src/main/java/com/ims/dao/CategoryRepository.java:8:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.data.repository.query.Param'
+src/main/java/com/ims/dao/CategoryRepository.java:14:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/dao/CategoryRepository.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductCategoryCustomised.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/dao/ProductCategoryCustomised.java:8:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductCategoryCustomised.java:8:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getProductName': the method is declared in an interface type
+src/main/java/com/ims/dao/ProductCategoryCustomised.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductCategoryCustomised.java:13:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getCategoryName': the method is declared in an interface type
+src/main/java/com/ims/dao/ProductCategoryCustomised.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductCategoryCustomised.java:15:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getTotalProducts': the method is declared in an interface type
+src/main/java/com/ims/dao/ProductCategoryCustomised.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductCategoryCustomised.java:17:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getProductAmount': the method is declared in an interface type
+src/main/java/com/ims/dao/ProductCustomised.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/dao/ProductCustomised.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductCustomised.java:9:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getProductName': the method is declared in an interface type
+src/main/java/com/ims/dao/ProductCustomised.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductCustomised.java:11:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getPrice': the method is declared in an interface type
+src/main/java/com/ims/dao/ProductCustomised.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductCustomised.java:14:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getVendorName': the method is declared in an interface type
+src/main/java/com/ims/dao/ProductCustomised.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductCustomised.java:16:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getCategory': the method is declared in an interface type
+src/main/java/com/ims/dao/ProductRepository.java:14:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/dao/ProductRepository.java:18:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/ims/dao/ProductRepository.java:20:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductRepository.java:25:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "FROM Product p " appears 5 times in this file; the first occurrence is on line 25
+src/main/java/com/ims/dao/ProductRepository.java:25:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/ims/dao/ProductRepository.java:26:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "JOIN p.category c " appears 5 times in this file; the first occurrence is on line 26
+src/main/java/com/ims/dao/ProductRepository.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductRepository.java:32:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/ims/dao/ProductRepository.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductRepository.java:42:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductRepository.java:47:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/ims/dao/ProductRepository.java:48:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductRepository.java:57:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductRepository.java:65:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductRepository.java:70:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductRepository.java:76:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/ims/dao/ProductRepository.java:79:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductRepository.java:86:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/ims/dao/ProductRepository.java:89:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/ProductRepository.java:93:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dao/PurchaseRepository.java:10:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/dao/VendorRepository.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.List'
+src/main/java/com/ims/dao/VendorRepository.java:7:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.data.jpa.repository.Query'
+src/main/java/com/ims/dao/VendorRepository.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/dao/VendorRepository.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/dto/CategoryDto.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/dto/CategoryDto.java:12:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/CategoryDto.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/ProductDTO.java:11:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/dto/ProductDTO.java:13:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'productId'
+src/main/java/com/ims/dto/ProductDTO.java:13:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/ProductDTO.java:18:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'brand'
+src/main/java/com/ims/dto/ProductDTO.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/ProductDTO.java:22:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'productName'
+src/main/java/com/ims/dto/ProductDTO.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/ProductDTO.java:27:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'quantity'
+src/main/java/com/ims/dto/ProductDTO.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/ProductDTO.java:31:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'pricePerUnit'
+src/main/java/com/ims/dto/ProductDTO.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/ProductDTO.java:34:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'barcode'
+src/main/java/com/ims/dto/ProductDTO.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/ProductDTO.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/ProductDTO.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/ProductDetailsResponseDTO.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/dto/ProductDetailsResponseDTO.java:12:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'product'
+src/main/java/com/ims/dto/ProductDetailsResponseDTO.java:12:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/ProductDetailsResponseDTO.java:14:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'category'
+src/main/java/com/ims/dto/ProductDetailsResponseDTO.java:14:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/ProductDetailsResponseDTO.java:16:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'vendors'
+src/main/java/com/ims/dto/ProductDetailsResponseDTO.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/ProductRequestDTO.java:5:	UnnecessaryImport:	UnnecessaryImport: Unused import 'jakarta.validation.constraints.Pattern'
+src/main/java/com/ims/dto/ProductRequestDTO.java:6:	UnnecessaryImport:	UnnecessaryImport: Unused import 'jakarta.validation.constraints.Size'
+src/main/java/com/ims/dto/ProductRequestDTO.java:13:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/dto/ProductRequestDTO.java:17:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'vendorId'
+src/main/java/com/ims/dto/ProductRequestDTO.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/ProductRequestDTO.java:21:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/ims/dto/ProductRequestDTO.java:22:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'vendorName'
+src/main/java/com/ims/dto/ProductRequestDTO.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/ProductRequestDTO.java:28:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'category'
+src/main/java/com/ims/dto/ProductRequestDTO.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/ProductRequestDTO.java:31:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'products'
+src/main/java/com/ims/dto/ProductRequestDTO.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/ValidateResponse.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/dto/ValidateResponse.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/ValidateResponse.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/ims/dto/VendorDTO.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'jakarta.persistence.*'
+src/main/java/com/ims/dto/VendorDTO.java:14:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/dto/VendorDTO.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/VendorDTO.java:24:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'vendorName'
+src/main/java/com/ims/dto/VendorDTO.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/VendorDTO.java:28:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'vendorPhone'
+src/main/java/com/ims/dto/VendorDTO.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/VendorDTO.java:34:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'vendorEmail'
+src/main/java/com/ims/dto/VendorDTO.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/VendorDTO.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/dto/VendorDTO.java:41:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Category.java:17:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/entity/Category.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Category.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Category.java:25:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'products'
+src/main/java/com/ims/entity/Category.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Product.java:37:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/entity/Product.java:45:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Product.java:48:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Product.java:50:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'barcode'
+src/main/java/com/ims/entity/Product.java:50:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Product.java:52:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'brand'
+src/main/java/com/ims/entity/Product.java:52:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Product.java:54:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'quantity'
+src/main/java/com/ims/entity/Product.java:54:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Product.java:56:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'pricePerUnit'
+src/main/java/com/ims/entity/Product.java:56:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Product.java:62:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Product.java:66:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Product.java:70:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Product.java:75:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Purchase.java:16:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/entity/Purchase.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Purchase.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Purchase.java:25:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'purchasedQuantity'
+src/main/java/com/ims/entity/Purchase.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Purchase.java:33:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Purchase.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Purchase.java:42:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Vendor.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/entity/Vendor.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Vendor.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Vendor.java:36:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'vendorPhone'
+src/main/java/com/ims/entity/Vendor.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Vendor.java:42:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'vendorEmail'
+src/main/java/com/ims/entity/Vendor.java:42:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Vendor.java:47:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Vendor.java:51:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Vendor.java:58:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/entity/Vendor.java:63:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'purchases'
+src/main/java/com/ims/entity/Vendor.java:63:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/exception/ExceptionResponse.java:4:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/exception/ExceptionResponse.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/exception/ExceptionResponse.java:6:	ImmutableField:	ImmutableField: Field 'timestamp' may be declared final
+src/main/java/com/ims/exception/ExceptionResponse.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/exception/ExceptionResponse.java:7:	ImmutableField:	ImmutableField: Field 'message' may be declared final
+src/main/java/com/ims/exception/ExceptionResponse.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/exception/ExceptionResponse.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/ims/exception/ExceptionResponse.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'timestamp' is not assigned and could be declared final
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:26:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:26:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:28:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'logger'
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:28:	MutableStaticState:	MutableStaticState: Do not use non-final non-private static fields
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:32:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:32:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errors' could be declared final
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:34:	UseConcurrentHashMap:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:36:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fieldName' could be declared final
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:37:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errorMessage' could be declared final
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:46:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:47:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'exception' is not assigned and could be declared final
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errorDetails' could be declared final
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:51:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:57:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:58:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'exception' is not assigned and could be declared final
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:61:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errorDetails' could be declared final
+src/main/java/com/ims/exception/GlobalExceptionalHandler.java:62:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/ims/exception/ResourceNotFoundException.java:5:	UnnecessaryImport:	UnnecessaryImport: Duplicate import 'org.springframework.http.HttpStatus'
+src/main/java/com/ims/exception/ResourceNotFoundException.java:6:	UnnecessaryImport:	UnnecessaryImport: Duplicate import 'org.springframework.web.bind.annotation.ResponseStatus'
+src/main/java/com/ims/exception/ResourceNotFoundException.java:8:	UnnecessaryImport:	UnnecessaryImport: Duplicate import 'org.springframework.http.HttpStatus'
+src/main/java/com/ims/exception/ResourceNotFoundException.java:9:	UnnecessaryImport:	UnnecessaryImport: Duplicate import 'org.springframework.web.bind.annotation.ResponseStatus'
+src/main/java/com/ims/exception/ResourceNotFoundException.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/exception/ResourceNotFoundException.java:12:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/ims/exception/ResourceNotFoundException.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/exception/ResourceNotFoundException.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/ims/service/ProductService.java:5:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.stream.Collectors'
+src/main/java/com/ims/service/ProductService.java:8:	UnnecessaryImport:	UnnecessaryImport: Unused import 'jakarta.validation.Valid'
+src/main/java/com/ims/service/ProductService.java:13:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.transaction.annotation.Propagation'
+src/main/java/com/ims/service/ProductService.java:14:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.transaction.annotation.Transactional'
+src/main/java/com/ims/service/ProductService.java:21:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.ims.entity.Category'
+src/main/java/com/ims/service/ProductService.java:25:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.ims.exception.ResourceNotFoundException'
+src/main/java/com/ims/service/ProductService.java:28:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/ims/service/ProductService.java:28:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/ims/service/ProductService.java:28:	TooManyMethods:	TooManyMethods: This class has too many methods, consider refactoring it.
+src/main/java/com/ims/service/ProductService.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/service/ProductService.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/service/ProductService.java:38:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'logger'
+src/main/java/com/ims/service/ProductService.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/ims/service/ProductService.java:38:	MutableStaticState:	MutableStaticState: Do not use non-final non-private static fields
+src/main/java/com/ims/service/ProductService.java:40:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/service/ProductService.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productRequestDTO' is not assigned and could be declared final
+src/main/java/com/ims/service/ProductService.java:42:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "input : {}" appears 6 times in this file; the first occurrence is on line 42
+src/main/java/com/ims/service/ProductService.java:44:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productDetails' could be declared final
+src/main/java/com/ims/service/ProductService.java:48:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "response :{}" appears 7 times in this file; the first occurrence is on line 48
+src/main/java/com/ims/service/ProductService.java:56:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/service/ProductService.java:56:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/ims/service/ProductService.java:58:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'product' could be declared final
+src/main/java/com/ims/service/ProductService.java:63:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productDetailsResponseDTO' could be declared final
+src/main/java/com/ims/service/ProductService.java:63:	LongVariable:	LongVariable: Avoid excessively long variable names like productDetailsResponseDTO
+src/main/java/com/ims/service/ProductService.java:65:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productDTO' could be declared final
+src/main/java/com/ims/service/ProductService.java:77:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'categoryDTO' could be declared final
+src/main/java/com/ims/service/ProductService.java:84:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendorDTOs' could be declared final
+src/main/java/com/ims/service/ProductService.java:85:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendors' could be declared final
+src/main/java/com/ims/service/ProductService.java:87:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendor' could be declared final
+src/main/java/com/ims/service/ProductService.java:88:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/service/ProductService.java:88:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendorDTO' could be declared final
+src/main/java/com/ims/service/ProductService.java:104:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/service/ProductService.java:108:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/main/java/com/ims/service/ProductService.java:110:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productDetailsResponseDTOS' could be declared final
+src/main/java/com/ims/service/ProductService.java:110:	LongVariable:	LongVariable: Avoid excessively long variable names like productDetailsResponseDTOS
+src/main/java/com/ims/service/ProductService.java:113:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'product' could be declared final
+src/main/java/com/ims/service/ProductService.java:115:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/service/ProductService.java:115:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productDetailsResponseDTO' could be declared final
+src/main/java/com/ims/service/ProductService.java:115:	LongVariable:	LongVariable: Avoid excessively long variable names like productDetailsResponseDTO
+src/main/java/com/ims/service/ProductService.java:117:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/service/ProductService.java:117:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productDTO' could be declared final
+src/main/java/com/ims/service/ProductService.java:129:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/service/ProductService.java:129:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'categoryDTO' could be declared final
+src/main/java/com/ims/service/ProductService.java:136:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/service/ProductService.java:136:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendorDTOs' could be declared final
+src/main/java/com/ims/service/ProductService.java:137:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendors' could be declared final
+src/main/java/com/ims/service/ProductService.java:139:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendor' could be declared final
+src/main/java/com/ims/service/ProductService.java:140:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/service/ProductService.java:140:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendorDTO' could be declared final
+src/main/java/com/ims/service/ProductService.java:160:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/service/ProductService.java:160:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'categoryName' is not assigned and could be declared final
+src/main/java/com/ims/service/ProductService.java:164:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productByCategory' could be declared final
+src/main/java/com/ims/service/ProductService.java:166:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/main/java/com/ims/service/ProductService.java:168:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/ims/service/ProductService.java:180:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/service/ProductService.java:180:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'categoryName' is not assigned and could be declared final
+src/main/java/com/ims/service/ProductService.java:183:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productsCount' could be declared final
+src/main/java/com/ims/service/ProductService.java:190:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/service/ProductService.java:190:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'categoryName' is not assigned and could be declared final
+src/main/java/com/ims/service/ProductService.java:193:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productsAvg' could be declared final
+src/main/java/com/ims/service/ProductService.java:200:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/service/ProductService.java:203:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productsInAscOrder' could be declared final
+src/main/java/com/ims/service/ProductService.java:203:	LongVariable:	LongVariable: Avoid excessively long variable names like productsInAscOrder
+src/main/java/com/ims/service/ProductService.java:205:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/main/java/com/ims/service/ProductService.java:207:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/ims/service/ProductService.java:218:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/service/ProductService.java:220:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'countProductsByCategory' could be declared final
+src/main/java/com/ims/service/ProductService.java:220:	LongVariable:	LongVariable: Avoid excessively long variable names like countProductsByCategory
+src/main/java/com/ims/service/ProductService.java:222:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/main/java/com/ims/service/ProductService.java:224:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/ims/service/ProductService.java:235:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/service/ProductService.java:237:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'countProductsByCategory' could be declared final
+src/main/java/com/ims/service/ProductService.java:237:	LongVariable:	LongVariable: Avoid excessively long variable names like countProductsByCategory
+src/main/java/com/ims/service/ProductService.java:239:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/main/java/com/ims/service/ProductService.java:241:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/ims/service/ProductService.java:257:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/service/ProductService.java:259:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productAssociatedTovendors' could be declared final
+src/main/java/com/ims/service/ProductService.java:259:	LongVariable:	LongVariable: Avoid excessively long variable names like productAssociatedTovendors
+src/main/java/com/ims/service/ProductService.java:260:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/main/java/com/ims/service/ProductService.java:262:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/ims/service/ProductService.java:274:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/service/ProductService.java:274:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/ims/service/ProductService.java:277:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/main/java/com/ims/service/ProductService.java:279:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productDetailsResponseDTOS' could be declared final
+src/main/java/com/ims/service/ProductService.java:279:	LongVariable:	LongVariable: Avoid excessively long variable names like productDetailsResponseDTOS
+src/main/java/com/ims/service/ProductService.java:282:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'product' could be declared final
+src/main/java/com/ims/service/ProductService.java:284:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/service/ProductService.java:284:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productDetailsResponseDTO' could be declared final
+src/main/java/com/ims/service/ProductService.java:284:	LongVariable:	LongVariable: Avoid excessively long variable names like productDetailsResponseDTO
+src/main/java/com/ims/service/ProductService.java:286:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/service/ProductService.java:286:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productDTO' could be declared final
+src/main/java/com/ims/service/ProductService.java:298:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/service/ProductService.java:298:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'categoryDTO' could be declared final
+src/main/java/com/ims/service/ProductService.java:305:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/service/ProductService.java:305:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendorDTOs' could be declared final
+src/main/java/com/ims/service/ProductService.java:306:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendors' could be declared final
+src/main/java/com/ims/service/ProductService.java:308:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendor' could be declared final
+src/main/java/com/ims/service/ProductService.java:309:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/service/ProductService.java:309:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendorDTO' could be declared final
+src/main/java/com/ims/service/ProductService.java:332:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/service/ProductService.java:334:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productList' could be declared final
+src/main/java/com/ims/service/ProductService.java:337:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productDtos' could be declared final
+src/main/java/com/ims/service/ProductService.java:339:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'product' could be declared final
+src/main/java/com/ims/service/ProductService.java:342:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/ims/service/ProductService.java:342:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productDTO' could be declared final
+src/main/java/com/ims/service/ProductService.java:361:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/ims/service/ProductService.java:364:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productAssociatedTovendorsWithCategory' could be declared final
+src/main/java/com/ims/service/ProductService.java:364:	LongVariable:	LongVariable: Avoid excessively long variable names like productAssociatedTovendorsWithCategory
+src/main/java/com/ims/service/ProductService.java:366:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/main/java/com/ims/service/ProductService.java:368:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/test/java/com/vendor/Di1ApplicationTests.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/vendor/Di1ApplicationTests.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/vendor/Di1ApplicationTests.java:10:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/vendor/Di1ApplicationTests.java:10:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
