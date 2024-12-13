@@ -1,4 +1,4 @@
-src/main/java/com/ims/InventoryManagementSystem.java:16:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.ims.controller.ProductController'
+src/main/java/com/ims/InventoryManagementSystem.java:16:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.InventoryManagementSystem.controller.ProductController'
 src/main/java/com/ims/InventoryManagementSystem.java:29:	CommentRequired:	CommentRequired: Class comments are required
 src/main/java/com/ims/InventoryManagementSystem.java:29:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
 src/main/java/com/ims/InventoryManagementSystem.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
@@ -20,7 +20,7 @@ src/main/java/com/ims/InventoryManagementSystem.java:384:	CommentSize:	CommentSi
 src/main/java/com/ims/InventoryManagementSystem.java:387:	CommentSize:	CommentSize: Comment is too large: Line too long
 src/main/java/com/ims/InventoryManagementSystem.java:391:	CommentSize:	CommentSize: Comment is too large: Line too long
 src/main/java/com/ims/InventoryManagementSystem.java:394:	CommentSize:	CommentSize: Comment is too large: Line too long
-src/main/java/com/ims/bo/ProductBO.java:31:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.ims.service.ProductService'
+src/main/java/com/ims/bo/ProductBO.java:31:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.InventoryManagementSystem.service.ProductService'
 src/main/java/com/ims/bo/ProductBO.java:34:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
 src/main/java/com/ims/bo/ProductBO.java:34:	CommentRequired:	CommentRequired: Class comments are required
 src/main/java/com/ims/bo/ProductBO.java:34:	TooManyMethods:	TooManyMethods: This class has too many methods, consider refactoring it.
@@ -133,7 +133,7 @@ src/main/java/com/ims/bo/ProductBO.java:520:	LongVariable:	LongVariable: Avoid e
 src/main/java/com/ims/bo/ProductBO.java:525:	CommentRequired:	CommentRequired: Public method and constructor comments are required
 src/main/java/com/ims/bo/ProductBO.java:527:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'countProductsByCategory' could be declared final
 src/main/java/com/ims/bo/ProductBO.java:527:	LongVariable:	LongVariable: Avoid excessively long variable names like countProductsByCategory
-src/main/java/com/ims/bo/VendorBO.java:9:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.ims.dao.ProductCustomised'
+src/main/java/com/ims/bo/VendorBO.java:9:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.InventoryManagementSystem.dao.ProductCustomised'
 src/main/java/com/ims/bo/VendorBO.java:15:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
 src/main/java/com/ims/bo/VendorBO.java:15:	CommentRequired:	CommentRequired: Class comments are required
 src/main/java/com/ims/bo/VendorBO.java:18:	CommentRequired:	CommentRequired: Field comments are required
@@ -155,9 +155,9 @@ src/main/java/com/ims/bo/VendorBO.java:52:	LocalVariableCouldBeFinal:	LocalVaria
 src/main/java/com/ims/bo/VendorBO.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'vendor' could be declared final
 src/main/java/com/ims/bo/VendorBO.java:53:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'vendor'
 src/main/java/com/ims/controller/ProductController.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.Arrays'
-src/main/java/com/ims/controller/ProductController.java:20:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.ims.entity.Category'
-src/main/java/com/ims/controller/ProductController.java:21:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.ims.entity.Product'
-src/main/java/com/ims/controller/ProductController.java:22:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.ims.entity.Vendor'
+src/main/java/com/ims/controller/ProductController.java:20:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.InventoryManagementSystem.entity.Category'
+src/main/java/com/ims/controller/ProductController.java:21:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.InventoryManagementSystem.entity.Product'
+src/main/java/com/ims/controller/ProductController.java:22:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.InventoryManagementSystem.entity.Vendor'
 src/main/java/com/ims/controller/ProductController.java:29:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
 src/main/java/com/ims/controller/ProductController.java:29:	CommentRequired:	CommentRequired: Class comments are required
 src/main/java/com/ims/controller/ProductController.java:29:	TooManyMethods:	TooManyMethods: This class has too many methods, consider refactoring it.
@@ -401,8 +401,8 @@ src/main/java/com/ims/service/ProductService.java:5:	UnnecessaryImport:	Unnecess
 src/main/java/com/ims/service/ProductService.java:8:	UnnecessaryImport:	UnnecessaryImport: Unused import 'jakarta.validation.Valid'
 src/main/java/com/ims/service/ProductService.java:13:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.transaction.annotation.Propagation'
 src/main/java/com/ims/service/ProductService.java:14:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.transaction.annotation.Transactional'
-src/main/java/com/ims/service/ProductService.java:21:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.ims.entity.Category'
-src/main/java/com/ims/service/ProductService.java:25:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.ims.exception.ResourceNotFoundException'
+src/main/java/com/ims/service/ProductService.java:21:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.InventoryManagementSystem.entity.Category'
+src/main/java/com/ims/service/ProductService.java:25:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.InventoryManagementSystem.exception.ResourceNotFoundException'
 src/main/java/com/ims/service/ProductService.java:28:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
 src/main/java/com/ims/service/ProductService.java:28:	CommentRequired:	CommentRequired: Class comments are required
 src/main/java/com/ims/service/ProductService.java:28:	TooManyMethods:	TooManyMethods: This class has too many methods, consider refactoring it.
